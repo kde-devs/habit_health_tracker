@@ -21,11 +21,11 @@ It serves as a prototype for habit-based health monitoring tools, especially in 
 
 ## Features
 
-- Daily CSV logging for five custom habit types
-- Automated date-stamped entries via Python CLI
-- Weekly and cumulative trend analysis using Jupyter Notebook
-- Optional regression-based prediction of self-assessed wellness score
-- Clean project structure for easy modification or expansion
+- Daily CSV logging for five custom habit types  
+- Automated date-stamped entries via Python CLI  
+- Weekly and cumulative trend analysis using Jupyter Notebook  
+- Optional regression-based prediction of self-assessed wellness score  
+- Clean project structure for easy modification or expansion  
 
 ---
 
@@ -34,19 +34,21 @@ It serves as a prototype for habit-based health monitoring tools, especially in 
 - Weekly habit frequency line charts  
 - Heatmap of daily habit intensity  
 - Rolling average for key categories  
-- (Optional) Predicted vs actual wellness scatter plot
+- (Optional) Predicted vs actual wellness scatter plot  
 
 ---
 
 ## Project Structure
 
+```
 habit_health_tracker/
 ├── data/
-│ └── daily_habits.csv # Daily habit log file
+│   └── daily_habits.csv                # Daily habit log file
 ├── notebooks/
-│ └── habit_analysis.ipynb # Main notebook for data visualization and modeling
+│   └── habit_analysis.ipynb            # Main notebook for data visualization and modeling
 ├── visualizations/
-│ ├── trends.png # Weekly trend plots
-│ └── prediction.png # Regression result visualization
-├── daily_habit_tracker.py # CLI script for logging habits
+│   ├── trends.png                      # Weekly trend plots
+│   └── prediction.png                  # Regression result visualization
+├── daily_habit_tracker.py             # CLI script for logging habits
 └── README.md
+```
