@@ -40,21 +40,32 @@ It serves as a prototype for habit-based health monitoring tools, especially in 
 ```
 habit_health_tracker/
 ├── data/
-│   └── daily_habits.csv          # Daily habit log file
+│   └── daily_habits.csv              # Daily habit log file
 │
 ├── notebooks/
-│   └── habit_analysis.ipynb      # Main notebook for data visualization and modeling
+│   └── habit_analysis.ipynb          # Main notebook for data visualization and modeling
 │
 ├── visualizations/
-│   ├── trends.png                # Weekly trend plots
-│   └── prediction.png            # Regression result visualization
+│   ├── trends.png                    # Weekly trend plots
+│   └── prediction.png                # Regression result visualization (actual vs predicted)
 │
-├── daily_habit_tracker.py       # CLI script for logging habits
-├── predict_wellness.py          # Script for predicting wellness score from habits
+├── daily_habit_tracker.py           # CLI script for logging habits
+├── predict_wellness.py              # Script for training regression model on habit data
+├── evaluate_model.py                # Script for evaluating model performance (MAE, MSE, R²)
 └── README.md
+
 ```
 
-## Prediction (예측)
+## Prediction
 
-- `predict_wellness.py`: A regression-based script that predicts `wellness_score` from other habit scores.
-- The resulting plot will be saved to `visualizations/prediction.png`.
+- `predict_wellness.py`  
+  A regression script that predicts the `wellness_score` using other daily habit scores (e.g., exercise, study, health).  
+  The predicted values are visualized along with actual scores and saved as `visualizations/prediction.png`.
+
+- `evaluate_model.py`  
+  A script that evaluates the model performance using the following metrics:  
+  - MAE (Mean Absolute Error)  
+  - MSE (Mean Squared Error)  
+  - R² Score (Coefficient of Determination)
+
+  The evaluation results are printed to the terminal or notebook output.
