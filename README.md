@@ -40,14 +40,17 @@ It serves as a prototype for habit-based health monitoring tools, especially in 
 ```
 habit_health_tracker/
 ├── data/
-│   └── daily_habits.csv           # Daily habit log file
+│   └── daily_habits.csv          # Daily habit log file
+│
 ├── notebooks/
-│   └── habit_analysis.ipynb       # Main notebook for data visualization and modeling
+│   └── habit_analysis.ipynb      # Main notebook for data visualization and modeling
+│
 ├── visualizations/
-│   ├── trends.png                 # Weekly trend plots
-│   └── prediction.png             # Regression result visualization
-├── daily_habit_tracker.py        # CLI script for logging habits
-├── predict_wellness.py           # Script for predicting wellness score from habits
+│   ├── trends.png                # Weekly trend plots
+│   └── prediction.png            # Regression result visualization
+│
+├── daily_habit_tracker.py       # CLI script for logging habits
+├── predict_wellness.py          # Script for predicting wellness score from habits
 └── README.md
 ```
 
