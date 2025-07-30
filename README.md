@@ -1,6 +1,3 @@
-# habit_health_tracker
-Track and analyze daily health habits over time for personal routine monitoring.
-
 # Habit Health Tracker
 
 A lightweight project that logs, tracks, and analyzes daily health habits over time.  
@@ -25,7 +22,7 @@ It serves as a prototype for habit-based health monitoring tools, especially in 
 - Automated date-stamped entries via Python CLI  
 - Weekly and cumulative trend analysis using Jupyter Notebook  
 - Optional regression-based prediction of self-assessed wellness score  
-- Clean project structure for easy modification or expansion  
+- Clean project structure for easy modification or expansion
 
 ---
 
@@ -34,7 +31,7 @@ It serves as a prototype for habit-based health monitoring tools, especially in 
 - Weekly habit frequency line charts  
 - Heatmap of daily habit intensity  
 - Rolling average for key categories  
-- (Optional) Predicted vs actual wellness scatter plot  
+- (Optional) Predicted vs actual wellness scatter plot
 
 ---
 
