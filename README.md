@@ -53,7 +53,6 @@ habit_health_tracker/
 ├── predict_wellness.py              # Script for training regression model on habit data
 ├── evaluate_model.py                # Script for evaluating model performance (MAE, MSE, R²)
 └── README.md
-
 ```
 
 ## Prediction
